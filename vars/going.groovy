@@ -1,3 +1,3 @@
-def call() {
-  echo "The current git commit is ${GIT_COMMIT}"
+def call(String Name) {
+  echo "The current git commit is ${Name}:${GIT_COMMIT}"
 }
